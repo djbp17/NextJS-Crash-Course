@@ -1,0 +1,13 @@
+some key for next js
+go to package json. under scripts. add this
+"build": "next build && next export",
+
+npm run build
+
+install serve to export your static website
+npm i -g server
+
+to run. The 8000 is it depends on your desired port
+serve -s out -p 8000
+
+The export of static website is not achievable sa tutorial na giwatch nako 3 years ago fro date today October 26, 2024

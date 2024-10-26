@@ -3,8 +3,7 @@ const about = () => {
   return (
     <div>
       <Head>
-        <title>About</title>
-        <meta name="keywords" content="web development, programming" />
+        <title>WebDev Newz</title>
       </Head>
       <h1>About</h1>
     </div>
