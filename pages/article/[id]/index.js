@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { server } from '../../../config';
+import Meta from '@/components/Meta';
 
 const article = ({ article }) => {
   // Example of another way of getting the id
@@ -10,6 +11,7 @@ const article = ({ article }) => {
   //   return <div>This is article {id}</div>;
   return (
     <>
+      <Meta title={article.title} description={article.excerpt} />
       <h1>{article.title}</h1>
       <p>{article.body}</p>
       <br />
